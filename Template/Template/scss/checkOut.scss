@@ -1,0 +1,48 @@
+@import 'headerFooter';
+
+body {
+    background-color: white;
+}
+
+.main {
+
+    .page-content {
+        padding: 35px 0 50px;
+
+        .step-by {
+            padding: 9px 20px;
+            text-align: center;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            .title-step {
+                font-size: 20px;
+                font-weight: 700;
+                letter-spacing: -0.5px;
+                line-height: 1;
+                padding: 4px 0;
+
+                color: #666;
+
+                &.active {
+                    color: #26c;
+                }
+            }
+
+            i {
+                margin: 0 20px;
+                font-size: 20px;
+                color: #ccc;
+            }
+        }
+
+        .container {
+            margin: 35px auto 10px;
+
+            
+        }
+    }
+}
